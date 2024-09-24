@@ -1,0 +1,98 @@
+/* ----------Mediia Query Creating by A.M.A---------- */
+
+/* -----Max-1280px----- */
+
+@media screen and (max-width: 1025px) and (max-width: 1280px) {
+    .quiz-section {
+        width: 50%;
+    }
+
+    #question {
+        font-size: 3.5rem;
+    }
+}
+
+/* -----Max-1024px----- */
+
+@media screen and (max-width: 1024px) {
+    .quiz-section {
+        width: 50%;
+    }
+
+    #question {
+        font-size: 3rem;
+    }
+}
+
+/* -----Max-1000px----- */
+
+@media screen and (max-width: 1000px) {
+    .quiz-section {
+        width: 70%;
+    }
+
+    #question {
+        font-size: 2.5rem;
+    }
+}
+
+/* -----Max-768px----- */
+
+@media screen and (max-width: 768px) {
+    .quiz-section {
+        width: 80%;
+    }
+
+    #question {
+        font-size: 2.5rem;
+    }
+}
+
+/* -----Max-499px----- */
+
+@media screen and (max-width: 499px) {
+    .quiz-section {
+        width: 85%;
+    }
+
+    #question {
+        font-size: 2.5rem;
+    }
+}
+
+/* -----Max-414px----- */
+
+@media screen and (max-width: 414px) {
+    .quiz-section {
+        width: 90%;
+    }
+
+    #question {
+        font-size: 2.5rem;
+        padding: 3rem 4rem;
+    }
+
+    ul {
+        gap: 1.5rem;
+        padding: 3rem 4rem;
+    }
+
+    li {
+        min-width: 40%;
+        min-height: 7rem;
+        border-radius: 4rem;
+        padding: 0 4.5rem 0 1.5rem;
+        -webkit-border-radius: 3.5rem;
+        -moz-border-radius: 3.5rem;
+        -ms-border-radius: 3.5rem;
+        -o-border-radius: 3.5rem;
+        -webkit-border-radius: 3.5rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+
+    label {
+        padding-left: 1rem;
+    }
+}
